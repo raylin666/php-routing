@@ -1,0 +1,37 @@
+{
+    "name": "raylin666/routing",
+    "description": "Web Http Router",
+    "keywords": [
+        "framework",
+        "router",
+        "api",
+        "http",
+        "web",
+        "handler"
+    ],
+    "type": "library",
+    "license": "Apache-2.0",
+    "authors": [
+        {
+            "name": "raylin666",
+            "email": "1099013371@qq.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.3",
+        "raylin666/middleware": "^1.0",
+        "raylin666/http": "^1.0"
+    },
+    "require-dev": {},
+    "autoload": {
+        "psr-4": {
+            "Raylin666\\Router\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {}
+    },
+    "extra": {},
+    "packages": {},
+    "packages-dev": {}
+}
