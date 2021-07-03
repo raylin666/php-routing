@@ -18,7 +18,7 @@ use Raylin666\Http\Message\Request;
  * Class Route
  * @package Raylin666\Router
  */
-class Route extends RouteRegex
+class Route extends RouteRegex implements RouterInterface
 {
     /**
      * @var array
