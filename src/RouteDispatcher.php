@@ -21,7 +21,7 @@ use RuntimeException;
  * Class RouteDispatcher
  * @package Raylin666\Router
  */
-class RouteDispatcher extends Dispatcher
+class RouteDispatcher extends Dispatcher implements RouterDispatcherInterface
 {
     /**
      * @var RouteCollection
