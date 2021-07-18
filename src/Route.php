@@ -83,9 +83,9 @@ class Route extends RouteRegex implements RouterInterface
     }
 
     /**
-     * @return Closure
+     * @return Closure|string|null
      */
-    public function getCallback(): ?Closure
+    public function getCallback()
     {
         return $this->callback;
     }
